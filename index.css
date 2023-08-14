@@ -48,7 +48,63 @@
 #first{
     padding: 15px 45px;
 }
+#istighfar{
+    font-size: 3rem;
+}
+#header-headline p{
+    padding: 20px;
+}
+#main-content-headline{
+    font-size: 3rem;
+}
 
+
+/* second */
+
+#seconde-main{
+    padding: 0px 240px;
+    text-align: center;
+}
+#seconde-main h1{
+    font-size: 3rem;
+}
+#main-children-two{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+#second-main-btn-one{
+    padding: 20px;
+    background-color: #90df83;
+    border: 0;
+    border-radius: 5px;
+}
+#second-main-btn-one:hover{
+    background-color: #79c6a1;
+}
+#second-main-btn-two{
+    padding: 20px;
+    background-color: #90df83;
+    border: 0;
+    border-radius: 5px;
+}
+#second-main-btn-two:hover{
+    background-color: #79c6a1;
+}
+
+#main-container-two{
+    max-width: 720px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background-color: burlywood;
+    text-align: center;
+}
+#main-container-two-headline{
+    font-size: 4rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 
 
 
@@ -57,9 +113,51 @@
 
 @media screen and (max-width: 576px){
     .header-headline{
-        padding: 0px;
+        padding: 20px;
+        margin: 20px;
     }
     .cover-photo img{
-        width: 100%;
+        width: 90%;
+    }
+    #seconde-main{
+        padding: 20px 30px;
+        text-align: center;
+    }
+    #istighfar{
+        font-size: 1.3rem;
+        padding: 20px;
+    }
+    #header-headline p{
+        padding: 30px;
+    }
+    .main-children{
+        background-color: darksalmon;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .count-class{
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .btn-container{
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .first-btn{
+        padding: 10px 20px;
+    }
+    #main-content-headline{
+        font-size: 1.3rem;
+    }
+    #seconde-main h1{
+        font-size: 1.3rem;
+    }
+    #main-children-two{
+        gap: 10px;
+    }
+    #second-main-btn-one{
+        padding: 20px 30px;
     }
 }
