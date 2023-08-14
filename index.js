@@ -27,3 +27,33 @@ btn4.addEventListener('click', function(){
     countTwo = 0;
     element.innerText = countTwo;
 });
+
+
+
+// input first work
+const btnMain = document.querySelector('#input-btn').addEventListener('click', function(){
+    const textArea = document.querySelector('#textarea');
+    const valueTextArea = textArea.value;
+
+    const p = document.createElement('p');
+    p.innerText = valueTextArea;
+
+    const sendDiv = document.querySelector('#review');
+    sendDiv.appendChild(p);
+    document.querySelector('#textarea').value = '';
+});
+
+// my second work
+
+document.querySelector('#textarea').addEventListener('keyup', function(event){
+    if(event.key === 'Enter'){
+        const textArea = document.querySelector('#textarea')
+        const valueTextArea = textArea.value;
+        const p = document.createElement('p');
+        p.innerText = valueTextArea;
+        const reviewCon = document.querySelector('#review');
+        reviewCon.appendChild(p);
+        document.querySelector('#textarea').value = '';
+    }
+})
+
